@@ -1,0 +1,8 @@
+name: email-classifier-env
+description: Email spam classification environment
+actions:
+  - spam
+  - not spam
+observations:
+  - email_text
+reward: correctness-based scoring
